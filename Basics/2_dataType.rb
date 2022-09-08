@@ -31,7 +31,8 @@ puts 'escape using "\\"';
 puts 'That\'s right';
 
 
-# hashes
+# hashes - A hash assign its values to its key. Value to a key is assigned by => sign. A key pair is separated with a comma between them and all the pairs are enclosed within curly braces.
+
 hsh = colors = {"red" => 380, "white" => 90, "blue" => 700 }
 hsh.each do |key, value|
   print key, " is ", value, "\n"
@@ -47,7 +48,8 @@ ary.each do |i|
 end
 
 
-# Symbols
+# Symbols - Symbols are light-weight strings. A symbol is preceded by a colon (:). They are used instead of strings because they can take up much less memory 
+
 domains = {:sk => "Bit Canny", :no => "BC", :sa => "Bit"}
 domains.each do |i, value|
   puts value
