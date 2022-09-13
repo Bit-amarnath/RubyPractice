@@ -1,0 +1,7 @@
+hash = Hash.new
+
+# print hash.methods
+# All array methods are as follows: 
+# [:anybits?, :nobits?, :downto, :times, :pred, :pow, :**, :<=>, :<<, :>>, :<=, :>=, :==, :===, :next, :-@, :digits, :[], :gcdlcm, :~, :rationalize, :integer?, :gcd, :lcm, :upto, :%, :chr, :&, :*, :+, :bit_length, :inspect, :-, :/, :even?, :odd?, :size, :succ, :<, :>, :ord, :to_int, :to_s, :to_i, :to_f, :to_r, :div, :divmod, :fdiv, :^, :coerce, :modulo, :remainder, :abs, :magnitude, :zero?, :floor, :ceil, :round, :truncate, :|, :numerator, :denominator, :allbits?, :dup, :+@, :real?, :rectangular, :arg, :rect, :real, :imaginary, :imag, :abs2, :angle, :phase, :conjugate, :conj, :to_c, :polar, :infinite?, :finite?, :eql?, :singleton_method_added, :quo, :clone, :i, :nonzero?, :step, :positive?, :negative?, :between?, :clamp, :singleton_class, :itself, :taint, :tainted?, :untaint, :untrust, :untrusted?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :public_methods, :instance_variables, :instance_variable_get, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :display, :hash, :public_send, :class, :frozen?, :tap, :then, :yield_self, :extend, :method, :public_method, :singleton_method, :define_singleton_method, :=~, :!~, :nil?, :respond_to?, :freeze, :object_id, :send, :to_enum, :enum_for, :__send__, :!, :__id__, :instance_eval, :instance_exec, :!=, :equal?]
+
+puts "How many array methods are: #{hash.methods.count}"
